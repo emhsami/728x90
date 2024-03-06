@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-wrapper {
+  width: 728px;
+  height: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main-wrapper * {
+  position: absolute;
+}
+
+.bike {
+  left: -120px;
+}
+
+.stone {
+  left: 480px;
+  top: 4px;
+}
+
+.frame-1-text,
+.frame-2-text {
+  left: -385px;
+}
